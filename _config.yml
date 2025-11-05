@@ -150,7 +150,7 @@ chulapa-skin:
   skin         :  sunset # Optional predefined skins
   autothemer    :  # Bool: Use autotheming
   vars          :    
-    primary     : #"lightskyblue" #default ["#007bff"] - Bootstrap blue
+    primary     : ["#769656"] #chessboard green#"lightskyblue" #default ["#007bff"] - Bootstrap blue
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
