@@ -10,13 +10,13 @@ remote_theme: dieghernan/chulapa
 # Overall options for your site, would affect your site SEO
 # Default values are explained
 locale                  :     #default["en-US"] format language-TERRITORY , e.g fr, en-GB, es-MX, pt-BR
-title                   : Chulapa 101    #default["repository_name"]
+title                   : Prospect Park Chess Club #default["repository_name"]
 title_separator         :     #default [" | "]
-subtitle                : Chulapa Jekyll Theme starter pack    #default [your-repository-tagline]  
-description             : Chulapa Jekyll Theme starter pack #default [your-repository-tagline]
+subtitle                : Brooklyn chess • all levels #default [your-repository-tagline]  
+description             : A friendly, slightly rowdy chess hang in Brooklyn. Drop in, play a game, meet people. #default [your-repository-tagline]
 url                     :     #See baseurl - On Github Pages you may leave it blank - If you use CNAME use your domain
 baseurl                 :     #On Github Pages you may leave it blank. Have a look to: https://byparker.com/blog/2014/clearing-up-confusion-around-baseurl/
-repository              :     dieghernan/chulapa-101 # Needs to be set (e.g. dieghernan/chulapa)
+repository              :     ppc-club/website-3.0 # Needs to be set (e.g. dieghernan/chulapa)
 words_per_minute        :     #default[200]
 timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/configuration/options/ and https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -24,9 +24,9 @@ timezone                :     #"Europe/Madrid ,see https://jekyllrb.com/docs/con
 og_image                :     #default[author.avatar (see below)] or [github-avatar]
 twitter_site            :     #Avoid @
 author:
-  name                  :  Your Name   # Name Surname Company
+  name                  :  Mitch Kain   # Name Surname Company
   avatar                :     # Try a square file. Info: Your github avatar on https://github.com/[USERNAME].png
-  location              :  New York, USA 
+  location              :  Brooklyn, NY
 #  links:                
 #    - url:  #A link or email: https://twitter.com/jack, mail@example.com
 #      icon: # A Fontawesome 5 code: fab fa-twitter - see https://fontawesome.com/
@@ -100,28 +100,30 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  Home # Title in navbar
-    url     :  # default["url/baseurl"]
+    title   :  PPC Club # Title in navbar
+    url     :  / # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : Blog # Label
-    url     : /blog/ # url	
-  - title   : Cheatsheets
-    url     : /cheatsheets
-  - title   : Extras
-    child   :
-      - title : Tags
-        url   : /tags
-      - title : Categories
-        url   : /categories
-      - title : Archive
-        url   : /archive
-      - title : Current skin
-        url   : /current-skin
-  - title   : Docs
-    url     : https://dieghernan.github.io/chulapa/docs/01-install
-  - title   : Use this template
-    url     : https://github.com/dieghernan/chulapa-101/generate
+  - title   : Meetups # Label
+    url     : /meetups/ # url	
+  - title   : Links
+    url     : /links/
+#  - title   : Extras
+#    child   :
+#      - title : Tags
+#        url   : /tags
+#      - title : Categories
+#        url   : /categories
+#      - title : Archive
+#        url   : /archive
+#      - title : Current skin
+#        url   : /current-skin
+  - title   : Instagram
+    url     : https://www.instagram.com/prospectparkchess/
+  - title   : Merch
+    url     : https://www.etsy.com/shop/ProspectParkChess
+  - title   : Contact
+    url     : /contact/
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		
@@ -131,13 +133,16 @@ navbar:
 #Social links to be placed on your site footer
 footer:
   links:
-    - label : Repo on Github # Label
-      icon  : fab fa-github # Fontawesome 5 icon
-      url   : https://github.com/dieghernan/chulapa-101 # A link or email: https://twitter.com/jack, mail@example.com
-    - label: "RSS"
-      icon: "fa fa-rss"
-      url:  "./atom.xml"
-  copyright: # default is © <year> <name> 
+    - label : Instagram # Label
+      icon  : fab fa-instagram # Fontawesome 5 icon
+      url   : https://www.instagram.com/prospectparkchess/ # A link or email: https://twitter.com/jack, mail@example.com
+    - label: Merch
+      icon: fas fa-store
+      url:  https://www.etsy.com/shop/ProspectParkChess
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/ppc-club/website-3.0
+  copyright: "© %Y Prospect Park Chess Club" # default is © <year> <name> 
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
@@ -226,6 +231,7 @@ plugins:
   - jekyll-paginate
   - jekyll-include-cache
   - jekyll-sitemap
+  - jekyll-remote-theme
 
 
 # Exclude these files from production site

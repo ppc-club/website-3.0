@@ -1,25 +1,48 @@
 ---
 layout: default
-title: Chulapa on remote
-header_type: hero
-subtitle: Starter pack
+title: Prospect Park Chess Club
+permalink: /
 ---
 
-Click [**Use this template**](https://github.com/dieghernan/chulapa-101/generate) button above for cloning this repo and get started with [Chulapa Jekyll theme](https://github.com/dieghernan/chulapa).
+<div class="hero">
+  <div class="hero-inner">
+    <div class="eyebrow">Brooklyn chess • all levels</div>
+    <h1>Prospect Park Chess Club</h1>
+    <p class="lead">A friendly, slightly rowdy chess hang in Brooklyn. Drop in, play a game, meet people.</p>
 
-Contains basic configuration to get you a site with:
+    <div class="cta-row">
+      <a class="btn btn-primary" href="/meetups/">See meetup schedule</a>
+      <a class="btn" href="https://www.instagram.com/prospectparkchess/" target="_blank" rel="noopener">Instagram updates</a>
+      <a class="btn" href="/merch/">Merch</a>
+    </div>
+  </div>
+</div>
 
-- Sample posts and [paginated blog index](./blog/).
-- Sample collection with Markdown and kramdown cheatsheets and [collection index](./cheatsheets).
-- Archive pages for posts grouped by year, category, and tag.
-- Github Action for deploying the site.
-- Demo page with the different Bootstrap components and how they look with the actual skin settings.
-- Sample 404 page.
-- Site search with Lunr.
-- Sample `_config` with minimal configuration. `primary` color is set to <span class="text-primary">LightSkyBlue</span> and `autothemer` is enabled. [Learn how to customize your site](https://dieghernan.github.io/chulapa/docs/03-theming).
-- Sample `algolia-search.yml` for using Algolia+GitHub Actions.
-- Sample files for extending the theme with your own scripts and css.
+<section>
+  <h2>Next up</h2>
+  <p class="muted">Our schedule changes with the weather—Instagram is always current.</p>
 
-On addition, `jekyll-sitemap` generates your sitemap on [./sitemap.xml](./sitemap.xml), and Chulapa generates an Atom feed on [./atom.xml](./atom.xml) and a RSS 2.0 feed on [./rss.xml](./rss.xml).
+  {% assign meetups = site.data.meetups %}
+  <div class="cards">
+    {% for m in meetups limit:2 %}
+      <div class="card">
+        <div class="card-title">{{ m.name }}</div>
+        <div class="card-meta">{{ m.when }} • {{ m.time }}</div>
+        <div class="card-body">
+          <div><strong>{{ m.location_name }}</strong></div>
+          <div class="muted">{{ m.address }}</div>
+          <a class="btn" href="https://www.google.com/maps/search/?api=1&query={{ m.map_query | uri_escape }}" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
 
-[Configure as necessary](https://dieghernan.github.io/chulapa/docs/02-config) and replace sample content with your own.
+<section>
+  <h2>New here?</h2>
+  <ul>
+    <li>No membership, no signup. Just show up.</li>
+    <li>Beginners welcome — we’ll get you a game.</li>
+    <li>Bringing boards/clocks is appreciated but not required.</li>
+  </ul>
+</section>

@@ -1,0 +1,28 @@
+# Edit this file to change the schedule shown across the site.
+# Times are local (America/New_York).
+
+- name: "Thursday Night @ Franklin Park"
+  when: "Thursdays"
+  time: "6:00 PM – late"
+  location_name: "Franklin Park"
+  address: "766 Franklin Ave, Brooklyn, NY 11238"
+  notes: "Our main weekly meetup. All levels welcome. Show up, grab a board, play." 
+  map_query: "Franklin Park 766 Franklin Ave Brooklyn NY 11238"
+
+- name: "Tuesday Chess @ Underhill Plaza (Lowry Triangle)"
+  cadence: "Seasonal"
+  day: "Tuesday"
+  time: "7:00 PM – 8:30 PM"
+  location_name: "Underhill Plaza (by Lowry Triangle)"
+  address: "Pacific St, Washington Ave & Underhill Ave, Brooklyn, NY 11238"
+  maps_url: "https://maps.app.goo.gl/iANh2o5TohsXytQB6"
+  weather_note: "Often canceled in winter / bad weather. Check Instagram the day-of."
+  notes: "Closed-off street / plaza vibes. Casual games, quick rounds, drop in anytime."
+
+- name: "Weekend Chess in Prospect Park"
+  when: "Weekends"
+  time: "Varies"
+  location_name: "Prospect Park"
+  address: "Prospect Park, Brooklyn"
+  notes: "Casual games when the weather’s good. Check Discord for time + location." 
+  map_query: "Prospect Park Brooklyn"
