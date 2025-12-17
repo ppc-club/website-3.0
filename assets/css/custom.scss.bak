@@ -14,7 +14,7 @@
 	  "@type": "Article",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://ppc-club.github.io/website-3.0/"
+        "@id": "https://ppc-club.github.io/website-3.0/assets/css/custom.scss.bak"
       },
       "headline": "Prospect Park Chess Club",
       "image": "",
@@ -47,7 +47,7 @@
       },{
         "@type": "ListItem",
         "position": 2,
-        "name": "Prospect Park Chess Club"
+        "name": ""
       }]
     }
     </script>
@@ -56,7 +56,7 @@
     "@context": "http://schema.org",
     "@type": "WebPage",
     "name": "Prospect Park Chess Club",
-    "description": ""
+    "description": "@charset “utf-8”;"
     }
 }
 </script><script type="application/ld+json">
@@ -72,8 +72,8 @@
   "url" : "https://ppc-club.github.io/website-3.0/"
 }
 </script>
-   <title>Prospect Park Chess Club | Brooklyn chess • all levels</title>
-  <link rel="canonical" href="https://ppc-club.github.io/website-3.0/">
+   <title>Prospect Park Chess Club | Prospect Park Chess Club</title>
+  <link rel="canonical" href="https://ppc-club.github.io/website-3.0/assets/css/custom.scss.bak">
     <!-- Atom feed -->
   <link href="https://ppc-club.github.io/website-3.0/atom.xml" type="application/atom+xml" rel="alternate" title="Atom feed Prospect Park Chess Club" >
     <!-- RSS 2.0 feed -->
@@ -82,17 +82,17 @@
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    <meta name="author" content="Mitch Kain" >
    <meta name="copyright" content="Mitch Kain" >
-   <meta name="description" content="">
+   <meta name="description" content="@charset “utf-8”;">
    <meta name="thumbnail" content="" >
    <meta name="robots" content="index, follow"><meta name="keywords" content="">
     <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="#769656">
     <!-- OpenGraph -->
-   <meta property="og:title" content="Prospect Park Chess Club | Brooklyn chess • all levels" >
+   <meta property="og:title" content="Prospect Park Chess Club | Prospect Park Chess Club" >
    <meta property="og:site_name" content="Prospect Park Chess Club | Brooklyn chess • all levels" >
-   <meta property="og:url" content="https://ppc-club.github.io/website-3.0/" >
+   <meta property="og:url" content="https://ppc-club.github.io/website-3.0/assets/css/custom.scss.bak" >
    <meta property="og:type" content="website" >
-   <meta property="og:description" content="" >
+   <meta property="og:description" content="@charset “utf-8”;" >
    <meta property="og:locale" content="en-US" >
    <meta property="og:image" content="" >
     <!-- Twitter/X Cards -->
@@ -121,7 +121,7 @@
 <!-- end custom head snippets -->
 </head>
 <body class="d-flex flex-column h-entry" id="body">
-	<a class="u-url d-none" href="https://ppc-club.github.io/website-3.0/">Invisible link to canonical for Microformats</a>
+	<a class="u-url d-none" href="https://ppc-club.github.io/website-3.0/assets/css/custom.scss.bak">Invisible link to canonical for Microformats</a>
 	<nav class="navbar navbar-expand-md sticky-top navbar-chulapa" aria-label="primary-navigation">
 	<div class="container-fluid mx-md-2">
 			<a class="navbar-brand font-weight-bold" href="https://ppc-club.github.io/website-3.0/">PPC Club</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
@@ -147,7 +147,7 @@
 </nav>	<header class="text-center header-chulapa"><div class="container-lg mt-2">
        <div class="row">
            <div class="col-lg-8 offset-lg-2">
-           <h1 class="p-name">Prospect Park Chess Club</h1>
+           <h1 class="p-name">Where’s your title?</h1>
            <hr class="mb-0">
 			</div>
 		</div>
@@ -157,50 +157,9 @@
 		<div class="row pt-2">
 			<aside class="col-lg-2 mt-lg-3 small"></aside>
 			<article id="maincontent" class="col-lg-8 mt-3 e-content">
-			<div class="hero">
- <div class="hero-inner">
-   <div class="eyebrow">Brooklyn chess • all levels</div>
-   <h1>Prospect Park Chess Club</h1>
-   <p class="lead">A friendly, slightly rowdy chess hang in Brooklyn. Drop in, play a game, meet people.</p>
-   <div class="cta-row">
-      <a class="btn btn-primary" href="/meetups/">See meetup schedule</a>
-      <a class="btn" href="https://www.instagram.com/prospectparkchess/" target="_blank" rel="noopener">Instagram updates</a>
-      <a class="btn" href="/merch/">Merch</a>
-   </div>
- </div>
-</div>
-<section>
- <h2>Next up</h2>
- <p class="muted">Our schedule changes with the weather—Instagram is always current.</p>
- <div class="cards">
-     <div class="card">
-       <div class="card-title">Thursday Night @ Franklin Park</div>
-       <div class="card-meta">Thursdays • 6:00 PM – late</div>
-       <div class="card-body">
-         <div><strong>Franklin Park</strong></div>
-         <div class="muted">766 Franklin Ave, Brooklyn, NY 11238</div>
-          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Franklin%20Park%20766%20Franklin%20Ave%20Brooklyn%20NY%2011238" target="_blank" rel="noopener">Get directions</a>
-       </div>
-     </div>
-     <div class="card">
-       <div class="card-title">Tuesday Chess @ Underhill Plaza (Lowry Triangle)</div>
-       <div class="card-meta"> • 7:00 PM – 8:30 PM</div>
-       <div class="card-body">
-         <div><strong>Underhill Plaza (by Lowry Triangle)</strong></div>
-         <div class="muted">Pacific St, Washington Ave &amp; Underhill Ave, Brooklyn, NY 11238</div>
-          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=" target="_blank" rel="noopener">Get directions</a>
-       </div>
-     </div>
- </div>
-</section>
-<section>
- <h2>New here?</h2>
- <ul>
-   <li>No membership, no signup. Just show up.</li>
-   <li>Beginners welcome — we’ll get you a game.</li>
-   <li>Bringing boards/clocks is appreciated but not required.</li>
- </ul>
-</section>
+			 @charset "utf-8";
+// Your custom css /scss here
+@import "ppc";
 </article>
 		</div>
 	</main><!-- Footer -->
