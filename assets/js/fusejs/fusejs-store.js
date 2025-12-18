@@ -4,16 +4,6 @@ MIT License
 From minimal-mistakes: https://github.com/mmistakes/minimal-mistakes/
 */
 var store = [{
-        "title": "Archive",
-        "subtitle": "",
-        "excerpt": "",
-        "content": "",
-        "categories": null,
-        "date": null,
-        "tags": null,
-        "url": "https://ppc-club.github.io/website-3.0/archive",
-        "img": null
-      },{
         "title": "First post!",
         "subtitle": "",
         "excerpt": "<p>This is my first post, how exciting!</p>",
@@ -139,7 +129,7 @@ var store = [{
         "excerpt": "<p>A demo page checking Markdown</p>",
         "content": "What’s Markdown? Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one...",
         "categories": ["tutorial"],
-        "date": "2025-12-17",
+        "date": "2025-12-18",
         "tags": ["starter","syntax","markdown"],
         "url": "https://ppc-club.github.io/website-3.0/cheatsheets/01-markdown-cheat-sheet",
         "img": null
@@ -149,7 +139,7 @@ var store = [{
         "excerpt": "<p>kramdown supercharges Markdown with some interesting features.</p>",
         "content": "What’s kramdown? kramdown supercharges Markdown with some interesting features. kramdown is the default Jekyll Markdown processor. When creating your site with Jekyll, you can use the standard Markdown syntax plus...",
         "categories": ["tutorial"],
-        "date": "2025-12-17",
+        "date": "2025-12-18",
         "tags": ["starter","syntax","kramdown"],
         "url": "https://ppc-club.github.io/website-3.0/cheatsheets/02-kramdown-cheat-sheet",
         "img": null

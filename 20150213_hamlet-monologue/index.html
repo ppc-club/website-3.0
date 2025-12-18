@@ -5,7 +5,7 @@
     <!--  MIT License-->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2025-12-17 -->
+    <!-- Page build 2025-12-18 -->
      <!-- Jekyll Version 4.4.1 -->
     <!--Google Structured Data-->
     <script type="application/ld+json">
@@ -126,18 +126,18 @@
 	<a class="u-url d-none" href="https://ppc-club.github.io/website-3.0/20150213_hamlet-monologue/">Invisible link to canonical for Microformats</a>
 	<nav class="navbar navbar-expand-md sticky-top navbar-chulapa" aria-label="primary-navigation">
 	<div class="container-fluid mx-md-2">
-			<a class="navbar-brand font-weight-bold" href="https://ppc-club.github.io/website-3.0/">PPC Club</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+			<a class="navbar-brand font-weight-bold" href="https://ppc-club.github.io/website-3.0/">Prospect Park Chess Club</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarToggler">
 				<ul class="navbar-nav ml-auto"><li class="nav-item">
 						<a class="nav-link " href="https://ppc-club.github.io/website-3.0/meetups/">Meetups</a>
 					</li><li class="nav-item">
-						<a class="nav-link " href="https://ppc-club.github.io/website-3.0/links/">Links</a>
+						<a class="nav-link " href="https://ppc-club.github.io/website-3.0/about/">About</a>
 					</li><li class="nav-item">
-						<a class="nav-link " href="https://www.instagram.com/prospectparkchess/">Instagram</a>
-					</li><li class="nav-item">
-						<a class="nav-link " href="https://www.etsy.com/shop/ProspectParkChess">Merch</a>
+						<a class="nav-link " href="https://ppc-club.github.io/website-3.0/faq/">FAQ</a>
+					</li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle " href="#" id="External" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">External</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="External"><a class="dropdown-item " href="https://www.instagram.com/prospectparkchess/">Instagram</a><a class="dropdown-item " href="https://www.etsy.com/shop/ProspectParkChess">Merch</a></div>
 					</li><li class="nav-item">
 						<a class="nav-link " href="https://ppc-club.github.io/website-3.0/contact/">Contact</a>
 					</li><li class="nav-item">
@@ -301,6 +301,25 @@ Be all my sins remembered.</p>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/gh/dieghernan/chulapa@master/assets/js/chulapa_script.js"></script>
 	<!-- start custom scripts to be placed at the bottom of the page -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const siteHost = window.location.host;
+    document
+      .querySelectorAll("nav a[href]")
+      .forEach((a) => {
+        const href = a.getAttribute("href");
+        if (!href) return;
+        // Only external absolute links
+        if (href.startsWith("http")) {
+          const url = new URL(href, window.location.href);
+          if (url.host && url.host !== siteHost) {
+            a.setAttribute("target", "_blank");
+            a.setAttribute("rel", "noopener");
+          }
+        }
+      });
+  });
+</script>
 <!-- end custom bottom scripts -->
 	</body>
 </html>
