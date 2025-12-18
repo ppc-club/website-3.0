@@ -14,11 +14,11 @@ header_img: /assets/img/hero/hasenstuble.png
 
     <div class="cta-row">
       <a class="btn btn-primary" href="/meetups/">See meetup schedule</a>
-      <a class="btn btn-ppcc2" href="/about/" rel="noopener">About</a>
-      <a class="btn btn-ppcc2" href="/faq/"  rel="noopener">FAQ</a>
+      <a class="btn btn-ppcc2" href="/about/">About</a>
+      <a class="btn btn-ppcc2" href="/faq/">FAQ</a>
     </div>
     <div class="cta-row">
-      <a class="btn btn-ppcc" href="/newb/">If its your first time CLICK HERE</a>
+      <a class="btn btn-ppcc" href="/website-3.0/newb/">If its your first time CLICK HERE</a>
     </div>
   </div>
 </div>
