@@ -206,4 +206,102 @@ main a:not(.btn):not(.nav-link) {
     grid-template-columns: 1fr;
   }
 }
+/* Logo inline with the page title (hero/header) */
+.page-header h1::before,
+.hero h1::before,
+header h1::before {
+  transform: translateY(-0.1em);
+  content: "";
+  display: inline-block;
+  width: 175px;         /* adjust */
+  height: 175px;        /* adjust */
+  margin-right: 0.75rem;
+  background-image: var(--ppc-logo);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  vertical-align: middle;
+}
 
+/* Keep the title + logo aligned nicely */
+.page-header h1,
+.hero h1,
+header h1 {
+  line-height: 1.1;
+}
+
+/* Mobile sizing */
+@media (max-width: 600px) {
+  .page-header h1::before,
+  .hero h1::before,
+  header h1::before {
+    width: 52px;
+    height: 52px;
+    margin-right: 0.6rem;
+  }
+}
+
+/* Make hero title + logo inline 
+.hero .container,
+.page-header .container {
+  display: flex;
+  align-items: center; /* vertical alignment 
+  gap: 1rem;
+}
+
+/* Logo sizing 
+.ppc-hero-logo img {
+  width: 72px;        /* start here 
+  height: auto;
+  flex-shrink: 0;
+}
+
+/* Hero overlay logo 
+.ppc-hero-logo {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  z-index: 10;
+}
+
+.ppc-hero-logo img {
+  width: 200px;        /* THIS is the size you want 
+  max-width: 60vw;     /* prevents overflow on mobile 
+  height: auto;
+}
+
+/* Slightly smaller on small screens 
+@media (max-width: 600px) {
+  .ppc-hero-logo img {
+    width: 140px;
+  }
+}
+
+/* Ensure hero establishes positioning context 
+.header,
+.page-header,
+.hero {
+  position: relative;
+}
+
+/* Hero overlay logo 
+.ppc-hero-logo {
+  position: absolute;
+  top: 50%;
+  left: 1.5rem;
+  z-index: 10;
+}
+
+
+.ppc-hero-logo img {
+  width: 200px;
+  max-width: 60vw;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .ppc-hero-logo img {
+    width: 140px;
+  }
+}
+*/

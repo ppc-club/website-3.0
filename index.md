@@ -5,11 +5,10 @@ permalink: /
 header_type: hero
 header_img: /assets/img/hero/hasenstuble.png
 ---
-
 <div class="hero">
   <div class="hero-inner">
     <div class="eyebrow">Brooklyn chess • all levels</div>
-    <h1>Prospect Park Chess Club</h1>
+    <h2>Prospect Park Chess Club</h2>
     <p class="lead">A friendly, slightly rowdy chess hang in Brooklyn. Drop in, play a game, meet people.</p>
 
     <div class="cta-row">
@@ -52,3 +51,5 @@ header_img: /assets/img/hero/hasenstuble.png
     <li>There's a drink special at the bar. Ask for a "Chess Beer."</li>
   </ul>
 </section>
+We also hang out online between meetups — join the Discord to chat, and our Chess.com club for games and events.
+
