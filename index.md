@@ -13,12 +13,12 @@ header_img: /assets/img/hero/hasenstuble.png
     <p class="lead">A friendly, slightly rowdy chess hang in Brooklyn. Drop in, play a game, meet people.</p>
 
     <div class="cta-row">
-      <a class="btn btn-primary" href="/meetups/">See meetup schedule</a>
-      <a class="btn btn-ppcc2" href="/about/">About</a>
-      <a class="btn btn-ppcc2" href="/faq/">FAQ</a>
+      <a class="btn btn-primary" href="{{ '/meetups/' | relative_url }}">See meetup schedule</a>
+      <a class="btn btn-ppcc2" href="{{ '/about/' | relative_url }}">About</a>
+      <a class="btn btn-ppcc2" href="{{ '/faq/' | relative_url }}">FAQ</a>
     </div>
     <div class="cta-row">
-      <a class="btn btn-ppcc" href="/website-3.0/newb/">If its your first time CLICK HERE</a>
+      <a class="btn btn-ppcc" href="{{ '/newb/' | relative_url }}">If its your first time CLICK HERE</a>
     </div>
   </div>
 </div>

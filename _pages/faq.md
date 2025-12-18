@@ -41,7 +41,7 @@ Yes, as long as they’re supervised and comfortable in the space (especially at
 Yes. Always.
 
 ## What if I don’t know anyone?
-Most people don’t their first time. Say hi, ask for a game, and you’ll fit in fast. Go to the [newbs page](/newb/)
+Most people don’t their first time. Say hi, ask for a game, and you’ll fit in fast. Go to the [newbs page]({{ '/newb/' | relative_url }})
 
 ## How do I stay in the loop?
 The best way is to join our discord... but we have other socials as well!
