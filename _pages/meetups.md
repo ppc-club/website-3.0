@@ -2,6 +2,8 @@
 layout: default
 title: Meetups
 permalink: /meetups/
+header_type: hero
+header_img: /assets/img/hero/zachyg.png
 ---
 
 # Meetups
@@ -21,7 +23,7 @@ We’re a Brooklyn chess hang. Bring a board if you’ve got one—if not, no st
       <div><strong>{{ m.location_name }}</strong></div>
       <div class="muted">{{ m.address }}</div>
       <p>{{ m.notes }}</p>
-      <a class="btn" href="https://www.google.com/maps/search/?api=1&query={{ m.map_query | uri_escape }}" target="_blank" rel="noopener">Get directions</a>
+      <a class="btn btn-ppcc3" href="https://www.google.com/maps/search/?api=1&query={{ m.map_query | uri_escape }}" target="_blank" rel="noopener">Get directions</a>
     </div>
   </div>
 {% endfor %}

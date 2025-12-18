@@ -1,5 +1,25 @@
 <!-- start custom scripts to be placed at the bottom of the page -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const siteHost = window.location.host;
 
+    document
+      .querySelectorAll("nav a[href]")
+      .forEach((a) => {
+        const href = a.getAttribute("href");
+        if (!href) return;
+
+        // Only external absolute links
+        if (href.startsWith("http")) {
+          const url = new URL(href, window.location.href);
+          if (url.host && url.host !== siteHost) {
+            a.setAttribute("target", "_blank");
+            a.setAttribute("rel", "noopener");
+          }
+        }
+      });
+  });
+</script>
 
 
 <!-- end custom bottom scripts -->

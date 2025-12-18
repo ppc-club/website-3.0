@@ -5,6 +5,7 @@
   --text: #e9eef4;
   --muted: #a9b4c0;
   --line: rgba(255,255,255,.10);
+  --bs-primary: #769656;
   --accent: #7ee787; /* subtle green */
   --accent2: #8ab4f8; /* subtle blue */
   --radius: 16px;
@@ -33,9 +34,176 @@ section{ max-width: 980px; margin: 0 auto; padding: 1.75rem 1rem; }
 .cta-row{ display:flex; gap:.75rem; flex-wrap: wrap; margin-top: 1rem; }
 
 .btn{ display:inline-block; padding:.6rem .9rem; border-radius: 999px; border: 1px solid var(--line); background: rgba(255,255,255,.03); color: var(--text); text-decoration:none; }
-.btn:hover{ border-color: rgba(255,255,255,.22); transform: translateY(-1px); }
+.btn:hover{ border-color: rgba(255,255,255,.12); transform: translateY(-1px); }
 .btn-primary{ border-color: rgba(126,231,135,.55); box-shadow: 0 0 0 1px rgba(126,231,135,.15) inset; }
+
+.btn-ppcc {
+  color: #b26bff;
+  background-color: transparent;
+  border: 2px solid rgba(179, 107, 255, 0.55);
+  box-shadow: 0 0 0 1px rgba(179, 107, 255, 0.15) inset;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-ppcc:hover,
+.btn-ppcc:focus {
+  color: #fff;
+  background-color: #b26bff;
+  border-color: #b26bff;
+  box-shadow: 0 0 0 1px rgba(179, 107, 255, 0.35) inset;
+}
+
+.btn-ppcc:active {
+  background-color: #9a55e0;
+  border-color: #9a55e0;
+}
+
+.btn-ppcc2 {
+  color: #FF8200;
+  background-color: transparent;
+  border: 2px solid rgba(255, 130, 0, 0.55);
+  box-shadow: 0 0 0 1px rrgba(255, 130, 0, 0.15) inset;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-ppcc2:hover,
+.btn-ppcc2:focus {
+  color: #fff;
+  background-color: #FF8200;
+  border-color: #FF8200;
+  box-shadow: 0 0 0 1px rgba(179, 107, 255, 0.35) inset;
+}
+
+.btn-ppcc2:active {
+  background-color: #9a55e0;
+  border-color: #9a55e0;
+}
+
+
+.btn-ppcc3 {
+  color: #FFFFFF;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 1px rrgba(255, 130, 0, 0.15) inset;
+  transition: all 0.15s ease-in-out;
+}
+
+.btn-ppcc3:hover,
+.btn-ppcc3:focus {
+  color: #fff;
+  background-color: #999999;
+  border-color: #999999;
+  box-shadow: 0 0 0 1px rgba(179, 107, 255, 0.35) inset;
+}
+
+.btn-ppcc3:active {
+  background-color: #9a55e0;
+  border-color: #9a55e0;
+}
+
+
+
+
+
+
 
 /* Make markdown content look good even with unknown theme defaults */
 .page-content, .post-content, main{ color: var(--text); }
 hr{ border: none; border-top: 1px solid var(--line); }
+
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-ppc:hover,
+.btn-ppc:focus,
+.btn-ppc:active {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+
+.btn:hover {
+  filter: brightness(1.05);
+}
+
+
+/* PPC base button */
+.btn-ppc {
+  display: inline-block;
+  padding: 0.6rem 1.1rem;
+  border-radius: 0.5rem;
+
+  background-color: #769656; /* chess green */
+  border: 2px solid #769656;
+
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Hover / focus */
+.btn-ppc:hover,
+.btn-ppc:focus {
+  background-color: #5f7f45;
+  border-color: #5f7f45;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Active */
+.btn-ppc:active {
+  background-color: #4f6a39;
+  border-color: #4f6a39;
+}
+
+/* Inline content links only */
+main a:not(.btn):not(.nav-link) {
+  color: #769656;
+  text-decoration: none;
+}
+
+main a:not(.btn):not(.nav-link):hover,
+main a:not(.btn):not(.nav-link):focus {
+  color: #5f7f45;
+  text-decoration: underline;
+}
+main a:not(.btn):not(.nav-link) {
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.ppc-headshots {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.ppc-headshots img {
+  width: 100%;
+  aspect-ratio: 1 / 1;        /* keeps them square */
+  object-fit: cover;
+  border-radius: 0.75rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* Tablet: 2x2 */
+@media (max-width: 900px) {
+  .ppc-headshots {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: stacked */
+@media (max-width: 480px) {
+  .ppc-headshots {
+    grid-template-columns: 1fr;
+  }
+}
+

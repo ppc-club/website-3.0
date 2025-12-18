@@ -2,12 +2,21 @@
 layout: default
 title: Contact
 permalink: /contact/
+header_type: hero
+header_img: /assets/img/hero/contact.png
 ---
 
 # Contact
 
 Want to collaborate, host, or run a special event with us?
 
-- DM us on Instagram: https://www.instagram.com/prospectparkchess/
+Want us to show up and bring a bunch of chessboards?
 
-(If you want an email/contact form on this page, tell me what address or form link you want public and I’ll wire it in.)
+Want to give us a present?
+
+- DM us on Instagram: https://www.instagram.com/prospectparkchess/
+- Reach out to an admin on Discord.
+
+or 
+
+- Email Us: [prospectparkchessclub@gmail.com](mailto:prospectparkchessclub@gmail.com)

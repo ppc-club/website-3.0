@@ -100,37 +100,28 @@ navbar:
   style     :  #default is the classical top navbar, set "fab" for a floating action button navbar or "dual"
   expand    :  # At which device size expand the navbar menu. default[md] https://getbootstrap.com/docs/4.5/layout/overview/
   brand:
-    title   :  PPC Club # Title in navbar
+    title   :  Prospect Park Chess Club # Title in navbar
     url     :  / # default["url/baseurl"]
     img     :  # An small image, try 30x30px
   nav:
-  - title   : Meetups # Label
-    url     : /meetups/ # url	
-  - title   : Links
-    url     : /links/
-#  - title   : Extras
-#    child   :
-#      - title : Tags
-#        url   : /tags
-#      - title : Categories
-#        url   : /categories
-#      - title : Archive
-#        url   : /archive
-#      - title : Current skin
-#        url   : /current-skin
-  - title   : Instagram
-    url     : https://www.instagram.com/prospectparkchess/
-  - title   : Merch
-    url     : https://www.etsy.com/shop/ProspectParkChess
-  - title   : Contact
-    url     : /contact/
-#  - title   : # Label submenu
-#    child:		
-#    - title: # Child label		
-#      url  : # child url	
-#    - title: # Child label		
-#      url  : # child url	
-#Social links to be placed on your site footer
+    - title: Meetups
+      url: /meetups/
+    - title: About
+      url: /about/
+    - title: FAQ
+      url: /faq/
+    - title: External
+      child:
+        - title: Instagram
+          url: https://www.instagram.com/prospectparkchess/
+          target: _blank
+        - title: Merch
+          url: https://www.etsy.com/shop/ProspectParkChess
+          target: _blank
+    - title: Contact
+      url: /contact/
+
+
 footer:
   links:
     - label : Instagram # Label

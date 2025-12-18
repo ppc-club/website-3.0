@@ -2,6 +2,8 @@
 layout: default
 title: Prospect Park Chess Club
 permalink: /
+header_type: hero
+header_img: /assets/img/hero/hasenstuble.png
 ---
 
 <div class="hero">
@@ -12,8 +14,11 @@ permalink: /
 
     <div class="cta-row">
       <a class="btn btn-primary" href="/meetups/">See meetup schedule</a>
-      <a class="btn" href="https://www.instagram.com/prospectparkchess/" target="_blank" rel="noopener">Instagram updates</a>
-      <a class="btn" href="/merch/">Merch</a>
+      <a class="btn btn-ppcc2" href="/about/" rel="noopener">About</a>
+      <a class="btn btn-ppcc2" href="/faq/"  rel="noopener">FAQ</a>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-ppcc" href="/newb/">If its your first time CLICK HERE</a>
     </div>
   </div>
 </div>
@@ -31,7 +36,7 @@ permalink: /
         <div class="card-body">
           <div><strong>{{ m.location_name }}</strong></div>
           <div class="muted">{{ m.address }}</div>
-          <a class="btn" href="https://www.google.com/maps/search/?api=1&query={{ m.map_query | uri_escape }}" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-ppcc3" href="https://www.google.com/maps/search/?api=1&query={{ m.map_query | uri_escape }}" target="_blank" rel="noopener">Get directions</a>
         </div>
       </div>
     {% endfor %}
@@ -43,6 +48,7 @@ permalink: /
   <ul>
     <li>No membership, no signup. Just show up.</li>
     <li>Beginners welcome — we’ll get you a game.</li>
-    <li>Bringing boards/clocks is appreciated but not required.</li>
+    <li>Bringing boards/clocks is not required. We have everything you need.</li>
+    <li>There's a drink special at the bar. Ask for a "Chess Beer."</li>
   </ul>
 </section>
