@@ -133,7 +133,7 @@ footer:
     - label: GitHub
       icon: fab fa-github
       url: https://github.com/ppc-club/website-3.0
-  copyright: "© %Y Prospect Park Chess Club" # default is © <year> <name> 
+  copyright: "© 2025 Prospect Park Chess Club" # default is © <year> <name> 
   
 # C. Theme Settings
 # Google Fonts https://fonts.google.com/, add as many as you need
