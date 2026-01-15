@@ -123,24 +123,4 @@ var store = [{
         "tags": ["skin","bootstrap","current-theme","header-hero","image","demo"],
         "url": "https://ppc-club.github.io/20201231_current-skin/",
         "img": "https://picsum.photos/id/1018/2000/2000"
-      },{
-        "title": "Markdown cheatsheet",
-        "subtitle": "The basic syntax of your page",
-        "excerpt": "<p>A demo page checking Markdown</p>",
-        "content": "What’s Markdown? Markdown is a lightweight markup language that you can use to add formatting elements to plaintext text documents. Created by John Gruber in 2004, Markdown is now one...",
-        "categories": ["tutorial"],
-        "date": "2026-01-15",
-        "tags": ["starter","syntax","markdown"],
-        "url": "https://ppc-club.github.io/cheatsheets/01-markdown-cheat-sheet",
-        "img": null
-      },{
-        "title": "kramdown cheatsheet",
-        "subtitle": "Beyond Markdown",
-        "excerpt": "<p>kramdown supercharges Markdown with some interesting features.</p>",
-        "content": "What’s kramdown? kramdown supercharges Markdown with some interesting features. kramdown is the default Jekyll Markdown processor. When creating your site with Jekyll, you can use the standard Markdown syntax plus...",
-        "categories": ["tutorial"],
-        "date": "2026-01-15",
-        "tags": ["starter","syntax","kramdown"],
-        "url": "https://ppc-club.github.io/cheatsheets/02-kramdown-cheat-sheet",
-        "img": null
       }]
