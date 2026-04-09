@@ -20,5 +20,5 @@ header_img: /assets/img/hero/contact.png
 
 or
 
-- Reach out to an admin on [Discord](https://discord.gg/HBJSGAuPf8).
+- Reach out to an admin on [Discord](https://discord.gg/tkXHtrTMFB).
 
